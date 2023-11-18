@@ -293,43 +293,45 @@ p{
 }
 .footer{
     width:100%;
-    background-color: black;
     display: flex;
     flex-direction: row;
     margin-top: 5%;
     gap:5px;
     flex-wrap: wrap;
-    
+    margin-bottom: 30px;
 }
-.grid1,.grid2,.grid3,.grid4{
-    height: 300px;
+img{
+    height: 200px;
     width:310px ;
-    border:1px solid white;
-    background-color: black;
-    margin-top: 20px;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    margin-left:auto;
-    margin-right: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-   
+    display: block;
+    transition: transform .4s;
 }
 .comp{
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
 }
-.grid1{
-    background-image:url('./images/x.jpg') ;
-    
+.grid1,.grid2,.grid3,.grid4{
+    display:inline-block;
+    overflow: hidden;
+    height: 200px;
+    width:310px ;
+    border:1px solid white;
+    border-radius: 4px;
 }
-.grid2{
-    background-image:url('./images/car.webp') ;
+.grid1:hover img{
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
 }
-.grid3{
-    background-image:url('./images/R.jpeg') ;
+.grid2:hover img{
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
 }
-.grid4{
-    background-image:url('./images/y.jpg') ;
+.grid3:hover img{
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+}
+.grid4:hover img{
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
 }
