@@ -71,6 +71,7 @@
    border:none;
    background-color: rgb(78, 78, 78);
    cursor: pointer;
+   width: 100%;
    
 }
 
@@ -86,7 +87,7 @@ p{
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    background-image: url('a.jpg');
+    background-image: url('./images/a.jpg');
     transition: 0.3s;
     overflow: hidden;
     animation: rotateInner 10s linear infinite reverse;
@@ -236,7 +237,7 @@ p{
 }
 .img1{
    width: 50%;
-   background-image: url('a.jpg');
+   background-image: url('./images/a.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    margin-top: 15px;
@@ -263,7 +264,7 @@ p{
    
     
     width: 50%;
-    background-image: url('a.jpg');
+    background-image: url('./images/a.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    margin-top: 15px;
@@ -302,7 +303,7 @@ p{
 }
 .grid1,.grid2,.grid3,.grid4{
     height: 300px;
-    width:270px ;
+    width:310px ;
     border:1px solid white;
     background-color: black;
     margin-top: 20px;
@@ -310,10 +311,25 @@ p{
     margin-bottom: 20px;
     margin-left:auto;
     margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
    
 }
 .comp{
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
+}
+.grid1{
+    background-image:url('./images/x.jpg') ;
+    
+}
+.grid2{
+    background-image:url('./images/car.webp') ;
+}
+.grid3{
+    background-image:url('./images/R.jpeg') ;
+}
+.grid4{
+    background-image:url('./images/y.jpg') ;
 }
