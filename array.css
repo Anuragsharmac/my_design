@@ -230,7 +230,7 @@ p{
 }
 .more{
     display: flex;
-    margin: 20px;
+    margin-left: 20px;
     margin-top: 450px;
     flex-wrap: wrap;
     gap: 3px;
@@ -258,14 +258,21 @@ p{
      word-spacing: 5px;
      margin-top: 20px;  
      float: left;
+     flex-wrap: wrap;
      display: flex;
+     
+}
+.text>p{
+    height: 330px;
+    overflow: hidden;
+    width: 600px;
 }
 .more1{
     display: flex;
     margin-top: 50px;
-    margin: 20px;
+   
     flex-wrap:wrap ;
-    gap: 3px;
+    gap: 5px;
 
    
 }
@@ -284,17 +291,25 @@ p{
     width: 500px;
     height: 340px;
     border-radius: 4px;
+    margin-left: 25px;
 }
 
 .more1>.text1{
-     word-spacing: 5px;
-     margin-top: 20px;
-     margin-bottom: 10px;
-     color:rgb(111, 108, 108);
-     margin-left: auto;
-     margin-right: auto;
-     display: flex;
-     float: right;
+    word-spacing: 5px;
+    margin-top: 20px;  
+    float: left;
+    flex-wrap: wrap;
+    display: flex;
+   
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.text1>p{
+    height: 330px;
+    overflow: hidden;
+    width: 600px;
+    color:rgb(142, 137, 137);
 }
 
 .more>.text{
