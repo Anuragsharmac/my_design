@@ -234,23 +234,31 @@ p{
     margin-top: 450px;
     flex-wrap: wrap;
     gap: 3px;
+    
 }
 .img1{
-   width: 50%;
-   background-image: url('./images/a.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
-   margin-top: 15px;
-   border-radius: 4px;
-   margin-left: auto;
-   margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.img1>img{
+    float:right;
+    width: 500px;
+    height: 340px;
+    border-radius: 4px;;
+    
+
 }
 .more>.text{
-     width: 48%;
      word-spacing: 5px;
      margin-top: 20px;  
-     margin-left: auto;
-     margin-right: auto; 
+     float: left;
+     display: flex;
 }
 .more1{
     display: flex;
@@ -258,32 +266,37 @@ p{
     margin: 20px;
     flex-wrap:wrap ;
     gap: 3px;
+
    
 }
-.img2{
-   
-    
-    width: 50%;
-    background-image: url('./images/a.jpg');
+.img2{   
    background-repeat: no-repeat;
    background-size: cover;
    margin-top: 15px;
    border-radius: 4px;
    margin-bottom: 20px;
    margin-left: auto;
-    margin-right: auto;
-  
+   margin-right: auto;
+   
+}
+.img2>img{
+    float: left;
+    width: 500px;
+    height: 340px;
+    border-radius: 4px;
 }
 
 .more1>.text1{
-    width: 48%;
      word-spacing: 5px;
      margin-top: 20px;
      margin-bottom: 10px;
      color:rgb(111, 108, 108);
      margin-left: auto;
      margin-right: auto;
+     display: flex;
+     float: right;
 }
+
 .more>.text{
     color:rgb(111, 108, 108);;
 }
