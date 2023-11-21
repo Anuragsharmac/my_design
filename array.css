@@ -331,7 +331,7 @@ p{
     display: flex;
     flex-direction: row;
     margin-top: 5%;
-    gap:5px;
+    gap:20px;
     flex-wrap: wrap;
     margin-bottom: 30px;
 }
@@ -355,6 +355,7 @@ img{
     border-radius: 4px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .grid1:hover img{
