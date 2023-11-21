@@ -7,7 +7,7 @@
     margin-right: auto;
 }
 .nav{
-    padding: 20px;
+    padding: 25px;
     display: flex;
     flex-wrap: wrap;
     color:white;
@@ -16,7 +16,7 @@
  .nav>a{
      text-decoration: none;
      color:white;
-     margin-left: 160px;
+     margin-left: 170px;
      float:right;
  }
  .nav>h2{
