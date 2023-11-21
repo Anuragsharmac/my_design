@@ -3,8 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     background-color:rgb(41, 41, 41) ;
-    margin-left: auto;
-    margin-right: auto;
+   
 }
 .nav{
     padding: 20px;
@@ -13,16 +12,29 @@
     gap: 20px;
     color:white;
     background-color:rgb(41, 41, 41) ;
+    
  }
- .nav>a{
-     text-decoration: none;
-     color:white;
+ .nav>.a1{
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border:1px solid white;
+    display: flex;
+    gap:40px;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+ }
+ .a1>a{
+    padding: 10px;
+    text-decoration: none;
+    color:white;
    
  }
  .nav>h2{
     height: 40px;
-    margin-left: auto;
-    margin-right: auto;
+   margin-left: auto;
+   margin-right: auto;
  }
 .hed{
     text-align: center;
@@ -279,6 +291,8 @@ p{
     margin-top: 50px;
     flex-wrap:wrap ;
     gap: 5px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 .img2{   
    background-repeat: no-repeat;
