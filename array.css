@@ -16,7 +16,7 @@
  .nav>a{
      text-decoration: none;
      color:white;
-     margin-left: 50px;
+     margin-left: 160px;
      float:right;
  }
  .nav>h2{
@@ -270,6 +270,7 @@ p{
     height: 330px;
     overflow: hidden;
     width: 400px;
+    margin-left: 40px;
 }
 .more1{
     display: flex;
@@ -313,6 +314,7 @@ p{
     overflow: hidden;
     width: 400px;
     color:rgb(142, 137, 137);
+    margin-left: 40px;
 }
 
 .more>.text{
@@ -332,8 +334,8 @@ p{
     margin-bottom: 30px;
 }
 img{
-    height: 200px;
-    width:310px ;
+    
+    width:100% ;
     display: block;
     transition: transform .4s;
 }
@@ -345,11 +347,14 @@ img{
 .grid1,.grid2,.grid3,.grid4{
     display:inline-block;
     overflow: hidden;
-    height: 200px;
-    width:310px ;
+    height: 250px;
+    width:450px ;
     border:1px solid white;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .grid1:hover img{
     transform: scale(1.1);
     transform-origin: 50% 50%;
