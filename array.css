@@ -250,7 +250,7 @@ p{
 }
 .img1>img{
     float:right;
-    width: 500px;
+    width: 400px;
     height: 340px;
     border-radius: 4px;
     margin-left: auto;
@@ -269,7 +269,7 @@ p{
 .text>p{
     height: 330px;
     overflow: hidden;
-    width: 600px;
+    width: 400px;
 }
 .more1{
     display: flex;
@@ -289,7 +289,7 @@ p{
 }
 .img2>img{
     float: left;
-    width: 500px;
+    width: 400px;
     height: 340px;
     border-radius: 4px;
     margin-left: 25px;
@@ -311,7 +311,7 @@ p{
 .text1>p{
     height: 330px;
     overflow: hidden;
-    width: 600px;
+    width: 400px;
     color:rgb(142, 137, 137);
 }
 
